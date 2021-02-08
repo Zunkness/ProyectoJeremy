@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>iniciar sesión</title>
+        <link rel="stylesheet" type="text/css" href="../css/registro.css">
+    </head>
+    <body>
+        <div class="form-register">
+            <form name="acceder" id="acceder">
+            	<p>
+                <h1 align="center">Iniciar Sesión</h1>
+            	</p>
+                <!--Usuario-->
+
+                   <p> <label for="user">Usuario</label> </p>
+                    <input class="controls" name="user" type="text" id="loginUser" value="" placeholder="Inserte su nombre de usuario" required/>
+
+
+                <!--Contraseña-->
+
+                   	<p> <label for="pass">Contraseña</label> </p>
+                    <input class="controls" name="pass" type="password" id="loginPass" value=""
+                    placeholder="Inserte su contraseña" required/>
+                <!--Mantener la sesion iniciada-->
+                <p>
+
+                    <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" />
+                    <label for="loginkeeping">Mantener sesión iniciada</label>
+
+                </p>
+                <!--Botones-->
+                 	<input class="botons" type="submit" value="Iniciar sesión" onclick="" />
+
+                <p class="change_link">¿Aún no estas registrado?
+                    <a href="#toregister" class="to_register">Regístrate</a>
+                </p>
+            </form><!--Formulario Acceder-->
+        </div><!--Login-->
+    </body>
+</html>
