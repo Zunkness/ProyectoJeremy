@@ -1,0 +1,129 @@
+/* Configuración para todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Configuración del fondo de la página */
+body {
+  background-image: url(../imagenes/fondo.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+}
+
+/* ----> Varias configuraciones de los formularios de login y registro <----*/
+.form-register {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+/* Configuración de los cuadros de texto donde van escritos los datos del usuario */
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: red;
+  text-decoration: none;
+  font-size:22px;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+  font-style: bold;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+  border-radius:20px;
+}
+
+form label p{
+	color:white;
+	font-style: bold;
+}
+
+#boton1 {
+  min-width: 40%;
+  background: #1f53c5;
+  float:left;
+  text-decoration: none;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 20px;
+  border-radius:20px;
+  text-align: center;
+}
+
+#boton2 {
+   min-width: 40%;
+  background: #1f53c5;
+  float:right;
+  text-decoration: none;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 20px;
+  border-radius:20px;
+  text-align: center;
+}
+
+#boton3 {
+   min-width: 40%;
+  background: #1f53c5;
+  float:right;
+  text-decoration: none;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 20px;
+  border-radius:20px;
+  text-align: center;
+}
+
+#contenido {
+  margin:0 auto;
+  width:50%;
+  min-width:40%;
+  min-height: 50%;
+  padding-top:40%;
+  background-color:red;
+}
