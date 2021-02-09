@@ -7,9 +7,9 @@
 </head>
 <body>
   <div id="contenido">
-    
-    <button class="hvr-bounce-to-right" onclick="location.href='login.php'">Acceder</button>
-    <button class="hvr-bounce-to-right" onclick="location.href='registro.php'">Registrarse</button>
+
+    <button class="btn-izq" onclick="location.href='login.php'">Acceder</button>
+    <button class="btn-drc" onclick="location.href='registro.php'">Registrarse</button>
 
   </div>
 </body>
