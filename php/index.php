@@ -6,9 +6,7 @@
     <title>Inicio</title>
 </head>
 <body>
-  	<div id="contenido">
-      <button id="boton1"><a href="login.php">Acceder </a></button>
-  		<button><a id="boton2" href="registro.php">Registrarse</a></button>
-  	</div>
+    <button><a class="boton1" href="login.php">Acceder </a></button>
+	<button><a class="boton1" href="registro.php">Registrarse</a></button>
 </body>
 </html>
