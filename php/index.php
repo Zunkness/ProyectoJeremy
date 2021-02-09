@@ -7,7 +7,7 @@
 </head>
 <body>
   	<div id="contenido">
-      <button><a id="boton1" href="login.php">Acceder </a></button>
+      <button id="boton1"><a href="login.php">Acceder </a></button>
   		<button><a id="boton2" href="registro.php">Registrarse</a></button>
   	</div>
 </body>
