@@ -6,7 +6,11 @@
     <title>Inicio</title>
 </head>
 <body>
-    <button><a class="boton1" href="login.php">Acceder </a></button>
-	<button><a class="boton1" href="registro.php">Registrarse</a></button>
+  <div id="contenido">
+    
+    <button class="hvr-bounce-to-right" onclick="location.href='login.php'">Acceder</button>
+    <button class="hvr-bounce-to-right" onclick="location.href='registro.php'">Registrarse</button>
+
+  </div>
 </body>
 </html>
